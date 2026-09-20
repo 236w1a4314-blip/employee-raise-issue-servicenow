@@ -1,93 +1,123 @@
-Employee Raise Issue – Record Producer & Service Portal Integration
-Project Overview
-The Employee Raise Issue project is a ServiceNow-based self-service solution that allows employees to raise workplace issues through a user-friendly Service Portal.
+# Employee Raise Issue – ServiceNow
 
-The project uses a custom scoped application, custom table, UI Policies, dependent fields, Record Producer, Service Portal, and custom widgets.
+A ServiceNow project that allows employees to raise and submit workplace issues through a user-friendly Service Portal.
 
-Technologies Used
-ServiceNow
-ServiceNow Studio
-Custom Scoped Application
-Custom Tables
-UI Policies
-Dictionary Dependency
-Record Producer
-Service Portal
-Service Portal Widgets
-HTML
-CSS
-JavaScript / Client Script
-Project Phases
-Phase 1 – Creating a Custom Application
-Created a custom scoped application named Employee Center using ServiceNow Studio.
+## 📌 Project Overview
 
-Phase 2 – Creating a Custom Table and Fields
-Created the Employee Raise Issue custom table with fields:
+The Employee Raise Issue application provides employees with a simple interface to report their issues. The submitted information is captured in a custom ServiceNow table for tracking and management.
 
-Number
-Requester
-Category
-Subcategory
-Short Description
-State
-Priority
-Assignment Group
-Phase 3 – Creating UI Policies and Dependency
-Implemented UI Policies to control form behavior.
+## 🎯 Project Objective
 
-Short Description becomes mandatory when State is New.
-Number field is read-only.
-Category and Subcategory are dependent fields.
-Dependency:
+- Provide an easy way for employees to raise issues.
+- Capture employee and issue details in ServiceNow.
+- Store submitted issues in a custom table.
+- Provide a user-friendly Service Portal interface.
+- Demonstrate ServiceNow application development concepts.
 
-Network → VPN
-Hardware → Laptop
-Software → Server
-Access → Forgot password
-Phase 4 – Creating a Record Producer
-Created a Record Producer named Raise Employee Issue.
+## 🛠️ Technologies & ServiceNow Features
 
-The Record Producer allows employees to submit issues through the Service Portal. Variables are mapped to fields in the Employee Raise Issue table.
+- ServiceNow
+- Custom Application
+- Custom Table
+- Record Producer
+- Service Portal
+- UI Policies
+- Client Scripts
+- Business Rules
+- ServiceNow Widgets
+- HTML
+- CSS
+- JavaScript
+- Update Sets
 
-Phase 5 – Creating a Service Portal
-Created a dedicated Service Portal named Requesting Portal with the URL suffix:
+## 🔄 Project Workflow
 
-employee_request
+Employee  
+↓  
+Service Portal  
+↓  
+Employee Raise Issue Form  
+↓  
+Enter Issue Details  
+↓  
+Submit Issue  
+↓  
+Record Producer  
+↓  
+Custom ServiceNow Table  
+↓  
+Issue Record Created  
+↓  
+Issue Tracking & Management
 
-The portal provides employees with an easy interface to raise issues.
+## 📋 Main Features
 
-Phase 6 – Creating Widgets
-Created two custom Service Portal widgets:
+### 1. Custom Application
+Created a dedicated ServiceNow application for managing employee-raised issues.
 
-Commercial Widget
-Link Redirect / Raise Ticket Widget
-HTML and CSS were used for the widget design.
+### 2. Custom Table
+Created a custom table to store employee issue information.
 
-A Client Script was used to redirect the user from the Raise Ticket widget to the Record Producer.
+### 3. Record Producer
+Created a Record Producer that allows employees to submit issues through a simple form.
 
-Phase 7 – Testing and Validation
-Performed end-to-end testing of:
+### 4. Service Portal
+Provided a user-friendly portal interface for employees to raise their issues.
 
-Service Portal
-Custom widgets
-Raise Employee Issue Record Producer
-Category/Subcategory dependency
-UI Policies
-Record creation in the backend table
-Phase 8 – Conclusion
-The project provides a centralized and user-friendly solution for employees to raise workplace issues.
+### 5. UI Policies
+Used UI Policies to control field behavior and improve the user experience.
 
-It improves issue submission, reduces manual effort, maintains structured data, and provides seamless integration between the Service Portal and backend ServiceNow records.
+### 6. Issue Management
+Submitted issues are stored as records in ServiceNow and can be viewed and managed by authorized users.
 
-Project Flow
-Employee
-↓
-Service Portal
-↓
-Raise an Issue Widget
-↓
-Record Producer
-↓
-Employee Raise Issue Table
-↓
-Backend Record Created
+## 🧪 Testing
+
+The application was tested by:
+
+1. Opening the Employee Raise Issue portal.
+2. Entering employee details.
+3. Selecting the issue category.
+4. Entering the issue description.
+5. Submitting the issue.
+6. Verifying that the issue record was successfully created in ServiceNow.
+
+## 📂 Project Documentation
+
+Detailed project documentation is available here:
+
+[📄 View Project Documentation](PROJECT_DOCUMENTATION.md)
+
+## 🎥 Project Demo
+
+Watch the project demonstration here:
+
+[▶️ Watch Employee Raise Issue Demo](DEMO.md)
+
+## 📁 Project Resources
+
+Project screenshots, documentation, and other related files:
+
+[📂 View Project Resources](Screenshots/)
+
+## 🚀 Learning Outcomes
+
+Through this project, I gained practical knowledge of:
+
+- ServiceNow application development
+- Custom tables and fields
+- Record Producers
+- Service Portal
+- UI Policies
+- Business Rules
+- Client Scripts
+- ServiceNow forms
+- Update Sets
+- Basic HTML, CSS and JavaScript integration
+
+## 👩‍💻 Project Type
+
+**ServiceNow Application Development Project**
+
+## 📌 Conclusion
+
+The Employee Raise Issue project demonstrates how ServiceNow can be used to create a simple employee issue-management solution. It provides an easy interface for employees to submit issues and enables the organization to store and manage those issues efficiently.
