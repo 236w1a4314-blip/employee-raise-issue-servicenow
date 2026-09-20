@@ -85,13 +85,13 @@ The application was tested by:
 
 Detailed project documentation is available here:
 
-[📄 View Project Documentation](PROJECT_DOCUMENTATION.md)
+[📄 View Project Documentation](https://drive.google.com/drive/folders/1aI3VZN16-H5xCld7kc2Hdy-t_SWezjyd?usp=sharing)
 
 ## 🎥 Project Demo
 
 Watch the project demonstration here:
 
-[▶️ Watch Employee Raise Issue Demo](DEMO.md)
+[▶️ Watch Employee Raise Issue Demo](https://drive.google.com/file/d/1Gl4llht-PxcXozaHX_9hB5KknIRxEXmC/view?usp=sharing)
 
 ## 📁 Project Resources
 
